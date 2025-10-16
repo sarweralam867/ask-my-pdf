@@ -110,5 +110,5 @@ All dependencies and versions are pinned in requirements.txt.
 
 - Include context highlighting in responses.
 
-##Author: H.M. Sarwer Alam
-##License: MIT 
+## Author: H.M. Sarwer Alam
+## License: MIT 
