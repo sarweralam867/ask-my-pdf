@@ -33,7 +33,7 @@ ask-my-pdf/
 ```
 ## Setup Instructions
 
-Clone or download this folder
+Clone or download this folder. 
 Make sure Python 3.10+ (3.10.11 prefered) is installed.
 
 Create a virtual environment (optional but recommended)
