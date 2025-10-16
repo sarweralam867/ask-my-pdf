@@ -1,0 +1,3 @@
+Hey,
+Drop your pdf (sample.pdf) in the Data Folder. 
+Thank you
