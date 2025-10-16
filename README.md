@@ -1,9 +1,9 @@
-#Ask My PDF – Local RAG Chatbot
+# Ask My PDF – Local RAG Chatbot
 
 This project lets you chat with your own PDF documents — completely offline and free.
 It uses Python, FAISS, Sentence Transformers, and a small local LLM (like TinyLlama) to build a simple RAG (Retrieval-Augmented Generation) system.
 
-##What It Does
+## What It Does
 
 - Reads and processes your PDF files.
 
@@ -15,7 +15,7 @@ It uses Python, FAISS, Sentence Transformers, and a small local LLM (like TinyLl
 
 - Generates answers using a small open-source model that runs on your CPU — no APIs or paid services.
 
-##Project Structure
+## Project Structure
 ```
 ask-my-pdf/
 │
@@ -31,7 +31,7 @@ ask-my-pdf/
 ├── requirements.txt             # Dependencies list
 └── README.md                    # This file
 ```
-##Setup Instructions
+## Setup Instructions
 
 Clone or download this folder
 Make sure Python 3.10+ (3.10.11 prefered) is installed.
@@ -48,17 +48,17 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-##Add your PDF file
+## Add your PDF file
 Place the file you want to query inside the data folder and name it sample.pdf.
 
-###Build the embeddings
+### Build the embeddings
 ```
 python app.py
 ```
 
 This step extracts text, splits it into chunks, and saves embeddings in the embeddings/ folder.
 
-###Run the chatbot
+### Run the chatbot
 ```
 python query.py
 
@@ -74,7 +74,7 @@ Time taken: 45.12 seconds
 Answer:
 The main topic of this PDF is the academic and research contributions of Brac University.
 ```
-##Performance Notes
+## Performance Notes
 
 Everything runs fully offline once the model is downloaded.
 
@@ -88,7 +88,7 @@ If you need faster responses:
 
 - Run on a machine with more CPU cores or GPU.
 
-##Key Dependencies
+## Key Dependencies
 
 - PyPDF2 – extract text from PDFs
 
@@ -102,7 +102,7 @@ If you need faster responses:
 
 All dependencies and versions are pinned in requirements.txt.
 
-##Future Improvements
+## Future Improvements
 
 - Add a Streamlit UI for easier interaction.
 
